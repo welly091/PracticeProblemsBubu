@@ -2,7 +2,7 @@
 This part is for testing. DO NOT TOUCH.
 -----------------------------------*/
 
-const strings = require('./strings_1');
+const strings = require('./problems/strings_1');
 
 describe('printString' ,() =>{
     test('Return the given string', () => {
@@ -122,7 +122,7 @@ describe('nonStart', () =>{
   })
 })
 
-describe('shoudPrint', () =>{
+describe('shouldPrint', () =>{
   test('Return given string if given boolean is true', () =>{
     expect(strings.shouldPrint("Hello", true)).toStrictEqual("Hello");
     expect(strings.shouldPrint("Hello", false)).toStrictEqual("");
