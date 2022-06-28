@@ -240,7 +240,9 @@ function seeBlue(){
 
 }
 
-
+/*-----------------------------------
+This part below is for testing. DO NOT TOUCH.
+-----------------------------------*/
 
 module.exports = {
   printString,
