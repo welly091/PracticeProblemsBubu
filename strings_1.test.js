@@ -1,3 +1,7 @@
+/*-----------------------------------
+This part is for testing. DO NOT TOUCH.
+-----------------------------------*/
+
 const strings = require('./strings_1');
 
 describe('printString' ,() =>{
@@ -174,3 +178,7 @@ describe('seeBlue', () =>{
     expect(strings.seeBlue("blule")).toStrictEqual(false);
   })
 })
+
+/*-----------------------------------
+This part is for testing. DO NOT TOUCH.
+-----------------------------------*/
